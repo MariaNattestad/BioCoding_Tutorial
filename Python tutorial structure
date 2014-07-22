@@ -1,0 +1,93 @@
+BioCoding Course:
+Python Tutorial Structure:
+
+
+
+Variables and print statements
+- Lecture
+- Quiz/Game
+
+Lists/strings/for loops
+- Lecture
+_ Quiz/Game
+
+If statements
+- Lecture
+- Quiz/Game
+
+Basic math
+- Lecture
+- Quiz/Game
+
+Start project 1:
+- Make some code that takes a string called DNA and calculates the percentage of the nucleotides that either C or G (as opposed to A or T)
+	- count them up and divide them by the total at the end
+	- print out the answer
+- Put input validation so it prints a message for every letter in the DNA string that isn't a nucleotide, then make sure you ignore it in the calculations for GC content
+- Make all the DNA upper case so you don't have to check a,c,g, and t too. upper(DNA)
+
+Functions
+- Lecture
+
+Finish project 1:
+- Make project 1 into a function and call it!
+- Make a small change to project 1 so it can also work with RNA (U should now be recognized like A and T) (you don't have to change the variable name DNA)
+
+
+Dictionaries
+- Lecture
+
+Choosing the right data structure
+- Game
+
+Reverse complement:
+- Talk about how DNA is antiparallel and how the bases match each other
+- Learn to reverse complement by hand
+
+Project 2:
+- write a function called reverse_complement() that gets a string called DNA
+- write a dictionary within this function that decodes each A to T, T to A, G to C, and C to G.
+- loop through the DNA and decode it one letter at a time: this is the complement
+- then reverse the complement using the cool indexing we learned
+
+Teach them about transcription and translation
+- how to find a start codon by hand, mark off every 3 nucleotides on paper, and stop at any of the stop codons
+- each codon is a code for one amino acid 
+
+
+
+Project 3: # we guide them a lot more in this project as it is pretty difficult. I would like to make it a class discussion, and then break them up for each part to actually code what we decided the pseudocode for as a class. The job of the teacher here is to ask questions and guide the discussion without actually giving the answers away.
+
+- the goal is to write a function that transcribes DNA into RNA and then translates it into protein
+- parts of this process have already been written and the pieces are broken up neatly into functions
+- the students' job is to fill in the rest of the code that is missing 
+# Project 3 is pretty difficult, so I have made a framework for it. That way the students can code the simpler parts.  
+
+ 
+
+
+Project 4: Reading a fasta file. Also a bit difficult, but we just want them exploring the file type and how you can look through the lines in the file.
+
+
+
+
+
+
+
+
+
+
+
+
+Extras:
+	Numpy
+	- lecture written already 
+	- problem set not written yet
+
+
+	Matplotlib.pyplot
+	- lecture not written yet
+	- problem set not written yet
+
+
+

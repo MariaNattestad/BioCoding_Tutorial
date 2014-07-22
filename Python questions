@@ -1,0 +1,101 @@
+Questions:
+
+
+########################################################################################
+######################## Variables and print statements ################################
+########################################################################################
+
+########## QUESTION 1: Variables ###########
+What kind of variable are these? (integer, float, string)
+A=93874
+B="abc"
+C="Asdflkj44534"
+D="23423"
+E=23
+F=23.
+
+
+########## QUESTION 2: What is wrong with this print statement? ###########
+
+print "My name is %d and my species is %s" % (myname,myspecies)
+
+print "I am %s and my genome is %d base pairs long" % mygenomesize
+
+print "A ribosome can make proteins at a rate of %d to %d amino acids per second" (10, 20)
+
+
+########################################################################################
+########################### Lists, strings, and for loops ##############################
+########################################################################################
+
+########## QUESTION 3: Which of these are correct? Which give errors? ###########
+
+X=[3,5,6,2,2]
+Y=["hello","world"]
+print X[5]
+print X[1+2]
+print X[4]
+print X[5]
+print X[-1]
+print Y[2]
+print Y[3]
+print Y[0]
+print Y[-1]
+print Y[-3]
+
+########## QUESTION 4: What is the output of this for loop? ###########
+
+
+for tomato in xrange(4):
+	print tomato
+
+for j in xrange(5,13):
+	print j
+
+for j in xrange(5,13,3):
+	print j
+
+fruits = ["Apples","Bananas","Coconut"]
+
+for i in xrange(1,len(fruits)):
+	print item
+
+
+
+
+
+########################################################################################
+################################## If statements #######################################
+########################################################################################
+
+########## QUESTION 5: True or False ###########
+
+(True and False)
+(True and True)
+(False or False)
+(False or True)
+(True and (False or True))
+(False and (False or (True or False)))
+
+
+
+########################################################################################
+################################### Basic Math #########################################
+########################################################################################
+
+########## QUESTION 6: Which of these give the correct answer? ###########
+
+5 * 6
+7/3
+5/98
+23.0/123
+6/2
+87/(1.0 * 45)
+78/39
+float(34)/234
+23/(234 * 1.0)
+23/234 * 1.0
+5 * 2.7
+
+
+
